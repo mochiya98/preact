@@ -1,0 +1,2 @@
+import{options as n}from"preact";function t(){return n.t=n.debounceRendering,n.debounceRendering=function(t){return n.o=t},function(){return n.o&&n.o()}}function r(r){var e,o,u=n.requestAnimationFrame,f=t();for(n.requestAnimationFrame=function(n){return e=n},r(),f();e;)o=e,e=null,o(),f();n.requestAnimationFrame=u}function e(){n.o&&(n.o(),delete n.o),void 0!==n.t&&(n.debounceRendering=n.t,delete n.t)}export{t as setupRerender,r as act,e as teardown};
+//# sourceMappingURL=testUtils.module.js.map
